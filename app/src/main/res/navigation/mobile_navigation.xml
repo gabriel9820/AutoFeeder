@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_inicio">
+
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.android.gabriel.autofeeder.ui.inicio.InicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <fragment
+        android:id="@+id/nav_conectar"
+        android:name="com.android.gabriel.autofeeder.ui.conectar.ConectarFragment"
+        android:label="@string/menu_conectar"
+        tools:layout="@layout/fragment_conectar" />
+
+    <fragment
+        android:id="@+id/nav_refeicoes_programadas"
+        android:name="com.android.gabriel.autofeeder.ui.refeicoes_programadas.RefeicoesProgramadasFragment"
+        android:label="@string/menu_refeicoes_programadas"
+        tools:layout="@layout/fragment_refeicoes_programadas" />
+
+    <fragment
+        android:id="@+id/nav_refeicao_manual"
+        android:name="com.android.gabriel.autofeeder.ui.refeicao_manual.RefeicaoManualFragment"
+        android:label="@string/menu_refeicao_manual"
+        tools:layout="@layout/fragment_refeicao_manual" />
+
+    <fragment
+        android:id="@+id/nav_ajustar_hora"
+        android:name="com.android.gabriel.autofeeder.ui.ajustar_hora.AjustarHoraFragment"
+        android:label="@string/menu_ajustar_hora"
+        tools:layout="@layout/fragment_ajustar_hora" />
+
+    <fragment
+        android:id="@+id/nav_cadastro_refeicao"
+        android:name="com.android.gabriel.autofeeder.ui.cadastro_refeicao.CadastroRefeicaoFragment"
+        android:label="@string/menu_cadastro_refeicao"
+        tools:layout="@layout/fragment_cadastro_refeicao" />
+
+    <fragment
+        android:id="@+id/nav_minha_conta"
+        android:name="com.android.gabriel.autofeeder.ui.minha_conta.MinhaContaFragment"
+        android:label="@string/menu_minha_conta"
+        tools:layout="@layout/fragment_minha_conta" />
+</navigation>

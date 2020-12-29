@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">AutoFeeder</string>
+    <string name="api_url">http://www.autofeederapi.kinghost.net/app/api/</string>
+    <string name="criar_conta">Criar Conta</string>
+    <string name="lembrar_me">Lembrar-me</string>
+    <string name="login">LOGIN</string>
+    <string name="esqueceu_senha">Esqueceu sua senha?</string>
+    <string name="redefinicao_senha">Redefinição de senha</string>
+    <string name="titulo_mensagem">Mensagem</string>
+    <string name="ok">OK</string>
+    <string name="cadastro_sucesso">Cadastro realizado com sucesso!</string>
+    <string name="email_confirmacao">Um e-mail de confirmação foi enviado para o endereço: %1$s</string>
+    <string name="email_redefinicao_senha">Um e-mail para redefinição de senha foi enviado para o endereço: %1$s</string>
+    <string name="campo_vazio">Campo vazio</string>
+    <string name="campo_invalido">Campo inválido</string>
+    <string name="senhas_diferentes">As senhas não correspondem.</string>
+    <string name="sem_conexao_api">Sem conexão com a API</string>
+    <string name="conectado">CONECTADO</string>
+    <string name="desconectado">DESCONECTADO</string>
+    <string name="action_confirmar">CONFIRMAR</string>
+    <string name="erro">Erro:</string>
+    <string name="salvo">Salvo</string>
+    <string name="quantidade_invalida">A quantidade deve ser um valor entre 10 e 100.</string>
+    <string name="bluetooh_desconectado">O aplicativo não está conectado ao alimentador.</string>
+    <string name="horario_invalido">O intervalo entre as refeições deve ser de no mínimo 5 minutos.</string>
+    <string name="refeicao_invalida">Existe uma refeição anterior não utilizada.</string>
+    <string name="quantidade_insuficiente">A quantidade informada deve ser maior que a quantidade existente no pote!</string>
+    <string name="quantidade_pote">Quantidade no pote: %1$s g</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_sair">Sair</string>
+    <string name="menu_inicio">Início</string>
+    <string name="menu_conectar">Conectar</string>
+    <string name="menu_refeicoes_programadas">Refeições Programadas</string>
+    <string name="menu_refeicao_manual">Refeição Manual</string>
+    <string name="menu_ajustar_hora">Ajustar Hora</string>
+    <string name="menu_cadastro_refeicao">Cadastro de Refeição</string>
+    <string name="menu_minha_conta">Minha Conta</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

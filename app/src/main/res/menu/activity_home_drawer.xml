@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_inicio"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_conectar"
+            android:icon="@drawable/ic_menu_conectar"
+            android:title="@string/menu_conectar" />
+        <item
+            android:id="@+id/nav_refeicoes_programadas"
+            android:icon="@drawable/ic_menu_refeicoes_programadas"
+            android:title="@string/menu_refeicoes_programadas" />
+        <item
+            android:id="@+id/nav_refeicao_manual"
+            android:icon="@drawable/ic_menu_refeicao_manual"
+            android:title="@string/menu_refeicao_manual" />
+        <item
+            android:id="@+id/nav_ajustar_hora"
+            android:icon="@drawable/ic_menu_ajustar_hora"
+            android:title="@string/menu_ajustar_hora" />
+        <item
+            android:id="@+id/nav_minha_conta"
+            android:icon="@drawable/ic_menu_minha_conta"
+            android:title="@string/menu_minha_conta" />
+    </group>
+
+</menu>
